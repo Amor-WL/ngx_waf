@@ -22,6 +22,7 @@ static ngx_command_t ngx_http_waf_commands[] = {
         offsetof(ngx_http_waf_loc_conf_t, waf_rule_path),
         NULL
    },
+   
    {
         ngx_string("waf_mode"),
         NGX_HTTP_MAIN_CONF | NGX_HTTP_SRV_CONF | NGX_HTTP_LOC_CONF | NGX_CONF_1MORE,
